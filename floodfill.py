@@ -25,7 +25,13 @@ def gen_board(x: int, y: int):
     
 
 def flood_fill(x: int, y: int) -> None:
-    pass
+    old_list = []
+    old_list.append([x,y])
+
+    while(old_list != []):
+        new_list = []
+        for point in old_list:
+            print("Hello")
 
 
 get_board_size()
